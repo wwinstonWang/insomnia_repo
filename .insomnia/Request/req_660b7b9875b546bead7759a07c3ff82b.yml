@@ -1,0 +1,30 @@
+_id: req_660b7b9875b546bead7759a07c3ff82b
+type: Request
+parentId: wrk_960a61e02e284a6b8ae5cd2121a88343
+modified: 1607671130913
+created: 1607669220541
+url: http://localhost:10000/Hw/sensor_data
+name: My Request
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name":"winston",
+    	"age":35
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_8d1bbd80c213442ebbe430be61102f3c
+authentication: {}
+metaSortKey: -1607669220541
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
